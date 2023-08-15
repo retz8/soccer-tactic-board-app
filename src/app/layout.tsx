@@ -18,9 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={globalFont.className}>
-      <body className="flex flex-col md:flex-row">
+      <body className="flex flex-col md:flex-row overflow-x-scroll">
         {/* Header: less than md */}
-        <header className="block md:hidden">
+        <header className="block md:hidden z-10">
           <Header />
         </header>
 
@@ -30,7 +30,7 @@ export default function RootLayout({
         </div>
 
         <main className="md:ml-64 flex-[1_1_0] overflow-auto">
-          <div className="max-w-screen-xl mx-auto">{children}</div>
+          <div className="h-full max-w-screen-xl mx-auto">{children}</div>
         </main>
 
         {/* Footer will be added later
