@@ -22,7 +22,6 @@ export default function HomePage() {
       <div className="flex md:hidden w-full">
         <MobileSoccerField />
       </div>
-
     </section>
   );
 }
