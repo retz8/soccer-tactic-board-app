@@ -17,7 +17,8 @@ export default function GoalLine({ direction }: Props) {
       <GoalInnerLine />
       <GoalOuterLine />
 
-      <div className="absolute w-full h-full translate-x-[118px] flex items-center z-20">
+      <div className="absolute w-full h-full flex items-center z-20">
+        <div className="h-[10.57%] aspect-[12/8]" />
         <CenterSpot />
       </div>
 
