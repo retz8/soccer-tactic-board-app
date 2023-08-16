@@ -8,15 +8,15 @@ body {
   height: 100vh;
 }
 
-/* .bg-green-pattern {
+.bg-green-pattern {
   background: repeating-linear-gradient(
     to right,
     #8cc63e,
-    #8cc63e 60px,
-    #78b33e 60px,
-    #78b33e 120px
+    #8cc63e 78px,
+    #78b33e 78px,
+    #78b33e 156px
   );
-} */
+}
 
 /* force elements to at the center */
 .space-center {
