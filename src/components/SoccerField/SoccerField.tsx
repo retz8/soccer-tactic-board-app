@@ -1,8 +1,8 @@
+"use client";
 /**
  * SoccerField component
  * { size: field size, default = 105m * 68m }
  */
-"use client";
 
 import React, { useContext } from "react";
 import CenterCircle from "./CenterCircle";

@@ -11,5 +11,6 @@ export default function Goal({ direction }: Props) {
       ${direction === "left" ? "rotate-0" : "rotate-180"}
       border-l-2 border-t-2 border-b-2 border-white`}
     />
+
   );
 }
