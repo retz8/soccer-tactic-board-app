@@ -10,6 +10,7 @@ import { useSoccerFieldContext } from "@/contexts/SoccerFieldProvider";
 import VerticalGrid from "./VerticalGrid";
 import HorizontalGrid from "./HorizontalGrid";
 import MainSoccerField from "./MainSoccerField";
+import PlayersPlayground from "../Player/PlayersPlayground";
 
 type Props = {
   size?: string; // need to add options instead of simple string
@@ -34,6 +35,10 @@ export default function SoccerField({ size = "default" }: Props) {
           {showVerticalGrid && <VerticalGrid />}
 
           {showHorizontalGrid && <HorizontalGrid />}
+
+          <div className="space-center z-30">
+            <PlayersPlayground />
+          </div>
         </div>
       </div>
 
