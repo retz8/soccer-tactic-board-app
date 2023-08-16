@@ -17,13 +17,14 @@ export default function GoalLine({ direction }: Props) {
       <GoalInnerLine />
       <GoalOuterLine />
 
-      <div className="absolute w-full h-full translate-x-[118px] flex items-center z-20">
+      <div className="absolute w-full h-full flex items-center z-20">
+        <div className="h-[10.57%] aspect-[12/8]" />
         <CenterSpot />
       </div>
 
       {/* Arc */}
-      <div className="absolute h-full flex items-center translate-x-28">
-        <div className="-translate-x-20 h-[26.912%] aspect-square border-2 rounded-full z-0" />
+      <div className="absolute h-full flex items-center translate-x-28 z-[15]">
+        <div className="-translate-x-20 h-[26.912%] aspect-square border-2 rounded-full" />
       </div>
     </div>
   );
